@@ -1,8 +1,9 @@
+import Education from "../education/Education";
 import "./experience.css";
 
 export default function Experience() {
   return (
-    <div className="book-page page-right " id="turn-1">
+    <div className="book-page page-right turn" id="turn-1">
       <div className="page-front">
         <h1 className="title">Work Experience</h1>
 
@@ -43,6 +44,7 @@ export default function Experience() {
         <span className="number-page">1</span>
         <span className="nextprev-btn" data-page="turn-1"></span>
       </div>
+      <Education />
     </div>
   );
 }

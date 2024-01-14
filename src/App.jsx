@@ -1,5 +1,4 @@
 import "./App.css";
-import Education from "./components/education/Education";
 import Experience from "./components/experience/Experience";
 import Profile from "./components/profile/Profile";
 
@@ -12,7 +11,6 @@ function App() {
         <div className="book">
           <Profile />
           <Experience />
-          <Education />
         </div>
       </div>
     </div>

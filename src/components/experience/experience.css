@@ -7,7 +7,7 @@
   transform-origin: left;
 }
 
-.book-page.page-right {
+.book-page.page-right.turn {
   transform: rotateY(-180deg);
 }
 
