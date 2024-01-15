@@ -1,4 +1,5 @@
 import { experience } from "../../data";
+import Contact from "../contact/Contact";
 import Education from "../education/Education";
 import Projects from "../projects/Projects";
 import Services from "../services/Services";
@@ -37,6 +38,7 @@ export default function Experience() {
       </div>
       <div className="book-page page-right turn" id="turn-3">
         <Projects />
+        <Contact />
       </div>
     </>
   );
