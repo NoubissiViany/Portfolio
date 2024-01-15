@@ -1,6 +1,7 @@
 import { experience } from "../../data";
 import Education from "../education/Education";
 import Services from "../services/Services";
+import Skills from "../skills/Skills";
 import "./experience.css";
 
 export default function Experience() {
@@ -29,8 +30,9 @@ export default function Experience() {
         </div>
         <Education />
       </div>
-      <div className="book-page page-right" id="turn-2">
+      <div className="book-page page-right turn" id="turn-2">
         <Services />
+        <Skills />
       </div>
     </>
   );
