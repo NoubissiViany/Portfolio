@@ -36,7 +36,7 @@ export default function Contact() {
         <i className="bx bx-chevron-left"></i>
       </span>
 
-      <a href="" className="back-profile">
+      <a href="#" className="back-profile">
         <p>Profile</p>
         <i className="bx bx-user"></i>
       </a>
