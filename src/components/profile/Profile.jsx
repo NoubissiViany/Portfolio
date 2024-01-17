@@ -22,15 +22,20 @@ export default function Profile() {
           </div>
 
           <p>
-            Hi, i am Noubissi Viany, a Full Stack Web Developer. Lorem ipsum
-            dolor sit amet consectetur adipisicing elit. Dolore, amet in. Itaque
-            voluptates delectus accusamus architecto recusandae nemo pariatur ea
-            adipisci ut mollitia autem, asperiores, omnis maiores obcaecati quia
-            velit.
+            Hi, i am Noubissi Viany, a Full Stack Web Developer about learning,
+            solving problems and assisting other dev whenever they need my help
+            (debugging code). Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Dolore, amet in. Itaque voluptates delectus accusamus
+            architecto recusandae nemo pariatur ea adipisci ut mollitia autem,
+            asperiores, omnis maiores obcaecati quia velit.
           </p>
 
           <div className="btn-box">
-            <a href="/src/assets/doc/CV.pdf" download="Viany Resume.pdf" className="btn">
+            <a
+              href="/src/assets/doc/CV.pdf"
+              download="Viany Resume.pdf"
+              className="btn"
+            >
               Download CV
             </a>
             <a href="#" className="btn contact-me">

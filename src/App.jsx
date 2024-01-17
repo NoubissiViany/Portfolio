@@ -1,4 +1,5 @@
 import "./App.css";
+import Experience from "./components/experience/Experience";
 import Profile from "./components/profile/Profile";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
         <div className="cover cover-right turn"></div>
         <div className="book">
           <Profile />
+          <Experience />
         </div>
       </div>
     </div>
