@@ -4,9 +4,15 @@ import Education from "../education/Education";
 import Projects from "../projects/Projects";
 import Services from "../services/Services";
 import Skills from "../skills/Skills";
+import usePageTurn from "../../customHook/usePageTurns";
 import "./experience.css";
+import useContactMe from "../../customHook/useContactMe";
+import useProfile from "../../customHook/useProfile";
 
 export default function Experience() {
+  usePageTurn();
+  useContactMe();
+  useProfile();
   return (
     <>
       <div className="book-page page-right turn" id="turn-1">

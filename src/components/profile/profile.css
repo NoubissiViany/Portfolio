@@ -10,6 +10,10 @@
   padding: 2rem;
 }
 
+.book-page.page-left {
+  box-shadow: -0.6rem 0.6rem 0.6rem rgba(0, 0, 0, 0.1);
+}
+
 .profile-page {
   display: flex;
   flex-direction: column;
