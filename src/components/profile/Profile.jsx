@@ -5,7 +5,7 @@ export default function Profile() {
     <div>
       <div className="book-page page-left">
         <div className="profile-page">
-          <img src="/src/assets/img/profile.jpg" alt="profile-image" />
+          <img src="/src/assets/img/avatar.jpg" alt="profile-image" />
           <h1>Noubissi Viany</h1>
           <h3>Full Stack Web Developer</h3>
 
