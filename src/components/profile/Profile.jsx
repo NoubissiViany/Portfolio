@@ -10,13 +10,25 @@ export default function Profile() {
           <h3>Full Stack Web Developer</h3>
 
           <div className="social-media">
-            <a href="#">
+            <a
+              href="https://www.linkedin.com/in/viany-noubissi"
+              rel="noreferrer"
+              target="_blank"
+            >
               <i className="bx bxl-linkedin"></i>
             </a>
-            <a href="#">
+            <a
+              href="https://twitter.com/GaetanNoubissi"
+              rel="noreferrer"
+              target="_blank"
+            >
               <i className="bx bxl-twitter"></i>
             </a>
-            <a href="#">
+            <a
+              href="https://github.com/NoubissiViany"
+              rel="noreferrer"
+              target="_blank"
+            >
               <i className="bx bxl-github"></i>
             </a>
           </div>
