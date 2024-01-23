@@ -9,7 +9,7 @@ export default function Services() {
       <div className="services-box">
         {services.map((item, index) => (
           <div key={index} className="services-content">
-            <i className="bx bx-code-alt"></i>
+            <i className={item.icon}></i>
             <h3>{item.title}</h3>
             <p>{item.desc}</p>
           </div>

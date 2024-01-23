@@ -1,7 +1,7 @@
 .services-box {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .services-box .services-content {
@@ -23,9 +23,11 @@
 }
 
 .services-content h3 {
-  font-size: 1.1rem;
+  font-size: 21px;
 }
 
 .services-content p {
+  font-size: 16px;
+  line-height: 20px;
   margin: 0.2rem 0 0.8rem;
 }

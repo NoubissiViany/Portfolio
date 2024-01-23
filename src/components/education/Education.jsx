@@ -12,8 +12,15 @@ export default function Education() {
               <i className="bx bxs-calendar"></i>
               {item.year}
             </span>
-            <h3>{item.title}</h3>
-            <p>{item.desc}</p>
+            <div className="school-info">
+              <h3>{item.title}</h3>
+              <p className="degree">{item?.degree}</p>
+              <p className="desc">{item.desc}</p>
+              <p className="skills">
+                <b>Skills: </b>
+                {item.skills}
+              </p>
+            </div>
           </div>
         ))}
       </div>

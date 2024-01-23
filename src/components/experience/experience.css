@@ -44,6 +44,9 @@
   position: relative;
   padding-left: 1.6rem;
   margin-bottom: 1.2rem;
+  text-align: justify;
+  font-size: 18px;
+  line-height: 22px;
 }
 
 .workeduc-box .workeduc-content::before {
@@ -57,12 +60,45 @@
   border-radius: 50%;
 }
 
-.workeduc-content .year {
+.workeduc-content .year,
+.workeduc-content .task {
   color: var(--main-color);
+  font-weight: bold;
+}
+
+.workeduc-content .year {
+  font-size: larger;
 }
 
 .workeduc-content .year i {
   margin-right: 0.4rem;
+}
+
+.workeduc-content .company-info,
+.workeduc-content .school-info {
+  margin-block: 8px;
+}
+
+.workeduc-content ul {
+  padding-left: 1.6rem;
+}
+
+.workeduc-content li {
+  margin-block: 8px;
+}
+
+.workeduc-content .degree {
+  color: var(--text-color);
+  font-weight: bold;
+}
+
+.workeduc-content .degree,
+.workeduc-content .desc {
+  margin-top: 3px;
+}
+
+.workeduc-content .skills {
+  margin-top: 20px;
 }
 
 .number-page {

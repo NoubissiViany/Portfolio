@@ -69,11 +69,13 @@
 
 .profile-page p {
   text-align: justify;
-  font-size: 1.2rem;
+  font-size: 18px;
+  line-height: 22px;
 }
 
 .btn-box {
   margin-top: 1.2rem;
+  font-weight: 600;
 }
 
 .btn {
@@ -94,12 +96,12 @@
 
 .btn:hover {
   background: transparent;
-  color: var(--main-color);
+  color: var(--text-color);
 }
 
 .contact-me {
   background: transparent;
-  color: var(--main-color);
+  color: var(--text-color);
 }
 
 .contact-me:hover {
