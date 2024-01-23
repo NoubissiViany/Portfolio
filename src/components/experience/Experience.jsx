@@ -26,8 +26,16 @@ export default function Experience() {
                   <i className="bx bxs-calendar"></i>
                   {item.year}
                 </span>
-                <h3>{item.title}</h3>
-                <p>{item.desc}</p>
+                <div className="company-info">
+                  <h3>{item.title}</h3>
+                  <p>{item.desc}</p>
+                </div>
+                <span className="task">Achievements/Tasks</span>
+                <ul>
+                  {item.tasks.map((object, index) => (
+                    <li key={index}>{object.task}</li>
+                  ))}
+                </ul>
               </div>
             ))}
           </div>

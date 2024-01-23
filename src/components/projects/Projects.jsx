@@ -17,7 +17,7 @@ export default function Projects() {
               Live Preview <i className="bx bx-link-external"></i>
             </a>
           </div>
-          <p>Tech Used</p>
+          <p>Tech Used : </p>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis,
             quis! Voluptates earum nostrum expedita velit modi, impedit

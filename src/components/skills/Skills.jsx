@@ -1,3 +1,4 @@
+import { CRM, backEnd, frontEnd } from "../../data";
 import "./skills.css";
 
 export default function Skills() {
@@ -9,42 +10,36 @@ export default function Skills() {
         <div className="skills-content">
           <h3>Front-End</h3>
           <div className="content">
-            <span>
-              <i className="bx bxl-html5"></i>HTLM
-            </span>
-            <span>
-              <i className="bx bxl-css3"></i>CSS
-            </span>
-            <span>
-              <i className="bx"></i>JS
-            </span>
-            <span>
-              <i className="bx"></i>React
-            </span>
-            <span>
-              <i className="bx"></i>Boostrap
-            </span>
+            {frontEnd.map((item, index) => (
+              <span key={index}>
+                <i className={item.icon}></i>
+                {item.name}
+              </span>
+            ))}
           </div>
         </div>
 
         <div className="skills-content">
           <h3>Back-End</h3>
           <div className="content">
-            <span>
-              <i className="bx"></i>Node
-            </span>
-            <span>
-              <i className="bx"></i>PHP
-            </span>
+            {backEnd.map((item, index) => (
+              <span key={index}>
+                <i className={item.icon}></i>
+                {item.name}
+              </span>
+            ))}
           </div>
         </div>
 
         <div className="skills-content">
           <h3>CRM</h3>
           <div className="content">
-            <span>
-              <i className="bx"></i>GHL
-            </span>
+            {CRM.map((item, index) => (
+              <span key={index}>
+                <i className={item.icon}></i>
+                {item.name}
+              </span>
+            ))}
           </div>
         </div>
 

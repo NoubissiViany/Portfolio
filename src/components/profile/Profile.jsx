@@ -24,10 +24,10 @@ export default function Profile() {
           <p>
             Hi, i am Noubissi Viany, a Full Stack Web Developer about learning,
             solving problems and assisting other dev whenever they need my help
-            (debugging code). Lorem ipsum dolor sit amet consectetur adipisicing
-            elit. Dolore, amet in. Itaque voluptates delectus accusamus
-            architecto recusandae nemo pariatur ea adipisci ut mollitia autem,
-            asperiores, omnis maiores obcaecati quia velit.
+            (debugging code). I have been working as a web developer for almost
+            2 years, specializing in back-end development. I know how to use
+            Node.js and Express.js. I have also worked with JavaScript, HTML,
+            CSS, React Native and React in front-end development
           </p>
 
           <div className="btn-box">
