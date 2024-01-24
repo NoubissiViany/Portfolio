@@ -47,7 +47,7 @@ export default function Profile() {
           <div className="btn-box">
             <a
               href={resume}
-              download="Viany Resume.pdf"
+              download="Viany-Resume.pdf"
               className="btn"
             >
               Download CV
