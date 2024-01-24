@@ -42,6 +42,7 @@ To start the development server and view the portfolio website, use the followin
 
 ```bash
 npm run dev
+```
 
 ## Technologies
 
