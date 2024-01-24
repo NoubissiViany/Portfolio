@@ -2,18 +2,6 @@
 
 This is a personal portfolio website built using React. It showcases my skills, projects, and experiences.
 
-## Table of Contents
-
-- [Portfolio](#portfolio)
-  - [Table of Contents](#table-of-contents)
-  - [Demo](#demo)
-  - [Features](#features)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Technologies](#technologies)
-  - [Contributing](#contributing)
-  - [License](#license)
-
 ## Demo
 
 You can view a live demo of the portfolio website at [viany-portfolio.com](https://viany-portfolio.netlify.app/).
