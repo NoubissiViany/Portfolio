@@ -1,11 +1,13 @@
 import "./profile.css";
+import avatar from '../../assets/img/avatar.png'
+import resume from '../../assets/doc/CV.pdf'
 
 export default function Profile() {
   return (
     <div>
       <div className="book-page page-left">
         <div className="profile-page">
-          <img src="/src/assets/img/avatar.png" alt="profile-image" />
+          <img src={avatar} alt="profile-image" />
           <h1>Noubissi Viany</h1>
           <h3>Full Stack Web Developer</h3>
 
@@ -44,7 +46,7 @@ export default function Profile() {
 
           <div className="btn-box">
             <a
-              href="/src/assets/doc/CV.pdf"
+              href={resume}
               download="Viany Resume.pdf"
               className="btn"
             >
