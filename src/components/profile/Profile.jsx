@@ -5,7 +5,7 @@ export default function Profile() {
     <div>
       <div className="book-page page-left">
         <div className="profile-page">
-          <img src="/src/public/assets/img/avatar.png" alt="profile-image" />
+          <img src="/src/assets/img/avatar.png" alt="profile-image" />
           <h1>Noubissi Viany</h1>
           <h3>Full Stack Web Developer</h3>
 
@@ -44,7 +44,7 @@ export default function Profile() {
 
           <div className="btn-box">
             <a
-              href="/src/public/assets/doc/CV.pdf"
+              href="/src/assets/doc/CV.pdf"
               download="Viany Resume.pdf"
               className="btn"
             >
