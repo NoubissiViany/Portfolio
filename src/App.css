@@ -63,10 +63,3 @@ body {
   display: flex;
   perspective: 250rem;
 }
-
-/* @media screen and (max-width: 768px) {
-  body {
-    min-width: 1350px;
-    margin-top: 400px;
-  }
-} */
