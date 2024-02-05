@@ -68,5 +68,6 @@ body {
   body {
     min-width: 1350px;
     margin-top: 400px;
+    transform: scale(1);
   }
 }
