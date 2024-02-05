@@ -66,7 +66,7 @@ body {
 
 @media screen and (max-width: 768px) {
   body {
-    min-width: 1320px;
+    min-width: 1350px;
     margin-top: 400px;
   }
 }
