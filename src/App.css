@@ -8,7 +8,7 @@ body {
   background: var(--bg-color);
   overflow: hidden;
   zoom: 80%;
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 
 .wrapper {
