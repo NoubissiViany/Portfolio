@@ -7,7 +7,7 @@ body {
   min-height: 100vh;
   background: var(--bg-color);
   overflow: hidden;
-  zoom: 90%;
+  zoom: 95%;
   margin-top: 3rem;
 }
 
