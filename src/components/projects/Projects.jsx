@@ -1,4 +1,5 @@
 import "./projects.css";
+import BrainBuster from "../../assets/img/BrainBuster.png";
 
 export default function Projects() {
   return (
@@ -7,29 +8,35 @@ export default function Projects() {
 
       <div className="portfolio-box">
         <div className="img-box">
-          <img src="" alt="portfolio img" />
+          <img src={BrainBuster} alt="project img" />
         </div>
 
         <div className="info-box">
           <div className="info-title">
-            <h3>Project Name</h3>
-            <a href="#">
+            <h3>Brain Buster</h3>
+            <a href="https://splendid-crostata-769cac.netlify.app/">
               Live Preview <i className="bx bx-link-external"></i>
             </a>
           </div>
-          <p>Tech Used : </p>
+          <p>Tech Used : HTML, CSS, JS and React </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis,
-            quis! Voluptates earum nostrum expedita velit modi, impedit
-            accusamus error itaque esse, illo nesciunt neque laudantium sapiente
-            deleniti iure magni quod.
+            Brain Buster is an application that enhances concentration, boosts
+            confidence, and aids in information retention. It utilizes an
+            asynchronous function with await to efficiently fetch questions and
+            answers from the Trivia API.
           </p>
         </div>
         <div className="btn-box">
-          <a href="#" className="btn">
+          <a
+            href="https://github.com/NoubissiViany/react-Quiz-App"
+            className="btn"
+          >
             Source Code
           </a>
-          <a href="#" className="btn">
+          <a
+            href="https://github.com/NoubissiViany?tab=repositories"
+            className="btn"
+          >
             More Projects
           </a>
         </div>
