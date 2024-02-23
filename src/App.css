@@ -7,8 +7,8 @@ body {
   min-height: 100vh;
   background: var(--bg-color);
   overflow: hidden;
-  zoom: 90%;
-  margin-top: 3rem;
+  zoom: 76%;
+  margin-top: 2rem;
 }
 
 .wrapper {
